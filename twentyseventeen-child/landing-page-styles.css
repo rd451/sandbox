@@ -1,0 +1,44 @@
+#masthead {
+	display:none;	
+}
+
+.sweetie-logo {
+	display:block;
+	position:relative;
+	margin-right:20px;
+	margin-top:20px;
+}
+							
+.sweetie-logo-2 {
+	display:none;
+}
+
+.sweetie-logo-mobile {
+	display:none;
+}
+
+/* Controls Landing Page Image */
+
+.landing-page-image {
+	background:url(http://localhost/wordpress/wp-content/uploads/2017/03/enter-2.png);
+	height:228px;
+	width:738px;
+	background-size:738px 228px;
+	transition:background .5s;
+	margin-top:250px;
+	background-repeat:no-repeat;
+}
+
+.landing-page-image:hover {
+	background:url(http://localhost/wordpress/wp-content/uploads/2017/03/enter-hover.png);
+	height:228px;
+	width:738px;
+	background-size:738px 228px;
+	background-repeat:no-repeat;
+}
+
+@media screen and (max-width: 920px) {
+	.sweetie-logo {
+		display:none;
+	}
+}
